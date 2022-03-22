@@ -30,7 +30,7 @@ namespace dotNet_Practices
             return returnList;
         }
 
-        public int findReplace(int num, int[] list)
+        private int findReplace(int num, int[] list)
         {
             if (list.Length == 0)
                 return 0;
